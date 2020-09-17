@@ -3,6 +3,8 @@ title: "Get started with writing tutorials!"
 slug: getting-started
 ---
 
+<iframe src="http://sqlfiddle.com/#!9/a6c585/1" title="W3Schools Free Online Web Tutorials"></iframe>
+
 **The above title becomes the tutorials first header**, so an introduction to the tutorial page should be given here **before** any more headers are created.
 
 # Supported syntax
