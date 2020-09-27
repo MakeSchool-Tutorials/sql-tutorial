@@ -28,5 +28,6 @@ By the end of this tutorial, you should be able to...
 
 1. Get familiar with MySQL commands
 1. Interact with databases using MySQL commands
+1. Query a database
 1. Join different tables
 
