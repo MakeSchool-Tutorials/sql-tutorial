@@ -23,7 +23,8 @@ SELECT DISTINCT LName FROM Employees
 > [challenge]
 Here are some challenges you can try on your own on the SQL fiddle
 > - Select distinct DepartmentId from Employees table
->
+> - Select all unique preferredContact from the Customers table
+> - Select all unique car models from the Cars table
 
 
 ## Resources
