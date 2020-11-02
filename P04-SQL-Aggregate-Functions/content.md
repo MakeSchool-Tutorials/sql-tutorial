@@ -53,6 +53,8 @@ It returns the number of items for a given set. Counts the number of specified c
 > COUNT(DISTINCT expression) - evaluates the expression for each row in a set, and returns the number of unique, non-null values.
 >
 
+![count all employees](assets/count_all.png "count all employees")
+
 > [action]
 >
 > Run this command in the sql-fiddle. 
@@ -63,6 +65,7 @@ SELECT max(salary) FROM Employees
 ```
 >
 
+![select max salary](assets/select_max_salary.png "select max salary")
 
 # Activity
 > [challenge]
