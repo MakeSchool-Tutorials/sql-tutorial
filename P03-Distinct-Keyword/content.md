@@ -3,7 +3,7 @@ title: "Distinct Keyword"
 slug: distinct-keyword
 ---
 
-## Distinct Keyword
+There are times when you would want to know unique values in you autoshop database. For example, you might want to know how many unique car models you have in your shop. This is achieved by using the DISTINCT keyword.
 
 The SQL DISTINCT keyword is used in conjunction with the SELECT statement to eliminate all the duplicate records and fetching only unique records.
 

@@ -5,13 +5,15 @@ slug: sql-keywords
 
 ## SQL Keywords
 
+You will be using SQL keywords in order to grab the information you are looking for from the autoshop database.
+
 SQL keywords are used to specify actions in your queries. They are not case sensitive, but it is suggested to use all caps for SQL keywords so that you can easily set them apart from the rest of the query. Some frequently used keywords are:
 
 1. SELECT
 1. FROM
 1. WHERE
 
-## SELECT
+# SELECT
 
 SELECT​ allows us to grab data for specific columns from the database:
 
@@ -54,7 +56,7 @@ SELECT FName FROM Customers
 
 ![Select all customers fname](assets/customers_fname.png "Select all customers fname")
 
-## FROM
+# FROM
 
 FROM​ allows us to specify which table(s) we care about; to select multiple tables, list the table names and use commas to separate them.
 
@@ -71,7 +73,7 @@ SELECT * FROM Customers LIMIT 2;
 > You should only see 2 rows from the Customers table since the assigned limit is 2.
 >
 
-## WHERE
+# WHERE
 
 The **​WHERE**​ clause in a query is used to filter results by specific criteria.
 
