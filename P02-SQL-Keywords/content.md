@@ -23,6 +23,8 @@ Example:
 > The code below grabs all the rows from the Customers table.
 >
 
+<!--  -->
+
 > [action]
 >
 > Run this command in the sql-fiddle.
@@ -30,6 +32,7 @@ Example:
 ```sql
 SELECT * FROM Customers
 ```
+> The output of your code should look like the table below.
 >
 
 ![Select all customers](assets/all_customers.png "Select all customers")
@@ -38,30 +41,35 @@ SELECT * FROM Customers
 >The SELECT block specifies which columns you want to output. Its format is ```SELECT <column>, <column>, ....``` Each column must be separated by a comma.
 >
 
+<!--  -->
+
 Example:
 
 > [action]
-> ```sql
-> SELECT FName FROM Customers
-> ```
+>
+```sql
+SELECT FName FROM Customers
+```
 >
 
 ![Select all customers fname](assets/customers_fname.png "Select all customers fname")
 
 ## FROM
 
-FROM​ allows us to specify which table(s) we care about; to select multiple tables, list the table names and use commas to separate them. (But until you learn the JOIN keyword, you may be surprised at what happens. That will come later.)
+FROM​ allows us to specify which table(s) we care about; to select multiple tables, list the table names and use commas to separate them.
 
 To limit the number of rows you get from the result, you can add the keyword **LIMIT**
-Run this, and see what happens.
+Run the code below, and see what happens.
 
-```sql
+``` sql
 SELECT * FROM Customers LIMIT 2;
 ```
 
 ![Select 2 customers](assets/select_2_customers.png "Select 2 customers")
 
-You should only see 2 rows from the Customers table.
+> [info]
+> You should only see 2 rows from the Customers table since the assigned limit is 2.
+>
 
 ## WHERE
 
@@ -94,7 +102,7 @@ Here are some challenges you can try on your own on the SQL fiddle
 >
 
 
-## Resources
+# Resources
 https://www.edureka.co/blog/top-10-reasons-to-learn-sql/
 
 https://mystery.knightlab.com/walkthrough.html

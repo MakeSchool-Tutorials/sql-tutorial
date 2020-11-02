@@ -9,7 +9,7 @@ An aggregate function performs a calculation one or more values and returns a si
 
 Here are a few useful aggregate functions SQL provides:
 
-### MAX
+# MAX
 Returns the maximum value in a set.
 The max() function accepts a valid expression or a column name as an argument.
 
@@ -18,7 +18,7 @@ The max() function accepts a valid expression or a column name as an argument.
 > MAX(expression) or MAX(column_name)
 >
 
-### MIN
+# MIN
 Returns the minimum value in a set.
 Just like the max(), the min() function accepts a valid expression or a column name as an argument.
 
@@ -27,7 +27,7 @@ Just like the max(), the min() function accepts a valid expression or a column n
 > MIN(expression) or MIN(column_name)
 >
 
-### SUM
+# SUM
 Calculates the sum of the specified column values. It excludes adding any null value inside the column.
 
 > [info]
@@ -35,7 +35,7 @@ Calculates the sum of the specified column values. It excludes adding any null v
 > SUM(column_name)
 > SUM(DISTINCT column_name) - returns only the sum of unique values in the column.
 
-### AVG
+# AVG
 Calculates the average of the specified column values.
 
 > [info]
@@ -43,8 +43,8 @@ Calculates the average of the specified column values.
 > AVG(column_name)
 >
 
-### COUNT​
-It returns the number of items for a given set. Counts the number of specified column values. 
+# COUNT​
+It returns the number of items for a given set. Counts the number of specified column values.
 
 > [info]
 > Usage:
@@ -55,9 +55,10 @@ It returns the number of items for a given set. Counts the number of specified c
 
 ![count all employees](assets/count_all.png "count all employees")
 
+# Example
 > [action]
 >
-> Run this command in the sql-fiddle. 
+> Run this command in the sql-fiddle.
 > This command selects the employee with the maximum salary.
 >
 ```sql
@@ -78,11 +79,10 @@ Here are some challenges you can try on your own on the SQL fiddle
 >
 
 
-## Resources
+# Resources
 
 https://mystery.knightlab.com/walkthrough.html
 
 https://www.sqlservertutorial.net/sql-server-aggregate-functions/
 
 https://www.sqlservertutorial.net/sql-server-aggregate-functions/sql-server-count/
-

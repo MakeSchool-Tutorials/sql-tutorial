@@ -29,7 +29,7 @@ SELECT DISTINCT LName FROM Employees
 > - Select all unique car models from the Cars table
 
 
-## Resources
+# Resources
 https://www.edureka.co/blog/top-10-reasons-to-learn-sql/
 
 https://mystery.knightlab.com/walkthrough.html
