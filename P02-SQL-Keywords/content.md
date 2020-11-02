@@ -5,7 +5,7 @@ slug: sql-keywords
 
 ## SQL Keywords
 
-SQL keywords are used to specify actions in your queries. They are not case sensitive, but we suggest using all caps for SQL keywords so that you can easily set them apart from the rest of the query. Some frequently used keywords are:
+SQL keywords are used to specify actions in your queries. They are not case sensitive, but it is suggested to use all caps for SQL keywords so that you can easily set them apart from the rest of the query. Some frequently used keywords are:
 
 1. SELECT
 1. FROM
@@ -32,11 +32,11 @@ SELECT * FROM Customers
 ```
 >
 
+![Select all customers](assets/all_customers.png "Select all customers")
 
 > [info]
-> Use Column_name(s): to select specific columns, put the names of the columns after SELECT​ and use commas to separate them.
+>The SELECT block specifies which columns you want to output. Its format is ```SELECT <column>, <column>, ....``` Each column must be separated by a comma.
 >
-
 
 Example:
 
@@ -45,6 +45,8 @@ Example:
 > SELECT FName FROM Customers
 > ```
 >
+
+![Select all customers fname](assets/customers_fname.png "Select all customers fname")
 
 ## FROM
 
@@ -56,6 +58,8 @@ Run this, and see what happens.
 ```sql
 SELECT * FROM Customers LIMIT 2;
 ```
+
+![Select 2 customers](assets/select_2_customers.png "Select 2 customers")
 
 You should only see 2 rows from the Customers table.
 
@@ -74,7 +78,9 @@ SELECT * FROM Customers WHERE FName = 'David'
 
 This command selects all customers whose first name is David.
 
-Let's try some of these things.
+![select customer with name David](assets/where_clause.png "select customer with name David")
+
+Let's try some of these queries below.
 
 # Activity
 > [challenge]

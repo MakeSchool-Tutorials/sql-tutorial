@@ -18,6 +18,8 @@ SELECT DISTINCT LName FROM Employees
 ```
 >
 
+![select employees distinct last names](assets/employees_distinct_last_names.png "select employees distinct last names")
+
 
 # Activity
 > [challenge]
