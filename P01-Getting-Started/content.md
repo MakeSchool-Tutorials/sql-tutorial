@@ -7,7 +7,7 @@ slug: getting-started
 
 ![Autoshop img](assets/autoshop.jpg "Autoshop img")
 
-You are an owner of an **Autoshop** and you would like to know some information about your Customers, Employees, Departments as well as the Cars you sell. All of these information is located in a database consisting of 4 tables : **Customers**, **Employees**, **Departments**, and **Cars**. In order to answer the questions you have, we are going to use SQL commands and query your database. 😄🗂
+You are an owner of an **Autoshop** and you would like to know some information about your Customers, Employees, Departments as well as the Cars you sell. All of this information is located in a database consisting of 4 tables : **Customers**, **Employees**, **Departments**, and **Cars**. In order to answer the questions you have, we are going to use SQL commands and query your database. 😄🗂
 
 
 
@@ -20,7 +20,9 @@ You will be using **SQL Fiddle** platform to use sql commands and return the res
 
 ![SQL Fiddle Platform](assets/sql-fiddle.png "SQL Fiddle Platform")
 
-[Link for Auto Shop fiddle](http://sqlfiddle.com/#!9/faf2f/1)
+> [action]
+>
+> [Open this link for the Auto Shop fiddle](http://sqlfiddle.com/#!9/faf2f/1), we'll be using it throughout this tutorial!
 
 
 # Why Is This Important
@@ -37,5 +39,4 @@ None
 By the end of this tutorial, you should be able to...
 
 1. Get familiar with MySQL commands
-1. Interact with databases using MySQL commands
-1. Query a database
+1. Query databases using MySQL commands
